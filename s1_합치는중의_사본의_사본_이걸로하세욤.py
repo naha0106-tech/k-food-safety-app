@@ -1387,7 +1387,7 @@ ngrok.kill()
 # 백그라운드에서 streamlit 실행
 # 실행 후 5초 정도 대기하여 서버가 준비될 시간을 줍니다.
 import time
-!streamlit run streamlit_app.py &>/dev/null &
+
 time.sleep(5)
 
 from pyngrok import ngrok
