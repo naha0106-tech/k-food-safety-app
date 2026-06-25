@@ -1,8 +1,9 @@
 streamlit
+google-genai
+google-generativeai
 pandas
 numpy
 plotly
-google-generativeai
 Pillow
 openpyxl
 requests
