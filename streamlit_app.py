@@ -10,7 +10,7 @@ Original file is located at
 
 from google import genai
 
-from IPython.display import Markdown
+
 
 API_KEY = userdata.get('GEMINI_API_KEY')
 client = genai.Client(api_key=API_KEY)
