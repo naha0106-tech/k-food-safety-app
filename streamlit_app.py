@@ -9,7 +9,7 @@ Original file is located at
 
 
 from google import genai
-from google.colab import userdata
+
 from IPython.display import Markdown
 
 API_KEY = userdata.get('GEMINI_API_KEY')
