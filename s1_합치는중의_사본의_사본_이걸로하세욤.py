@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/13oTxxPzC_rEARF9o4nogYesj-pCVBKYm
 """
 
-!pip install -q -U google-genai google-auth==2.47.0
 
 from google import genai
 from google.colab import userdata
@@ -907,7 +906,7 @@ Below is the code for a Streamlit application (`streamlit_app.py`) that encapsul
 After running the next cell, a `streamlit_app.py` file will be created. You can then run it using the command provided in the subsequent cell.
 """
 
-!pip install streamlit -q
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile streamlit_app.py
@@ -1254,7 +1253,7 @@ Streamlit 앱에 이미지를 추가하려면 `st.image()` 함수를 사용하�
 """
 
 # 1. pyngrok 설치
-!pip install pyngrok -q
+
 
 # 2. ngrok 설정 및 연결
 from pyngrok import ngrok
@@ -1324,7 +1323,7 @@ streamlit_process = subprocess.Popen(
 print("Streamlit app is starting in the background...")
 
 # Install pyngrok
-!pip install pyngrok -q
+
 
 # Set your ngrok authentication token (replace 'YOUR_NGROK_AUTH_TOKEN' with your actual token)
 # Get your token from https://dashboard.ngrok.com/auth/your-authtoken
@@ -1347,7 +1346,7 @@ except Exception as e:
 """To run the Streamlit application, execute the following command. You might need to expose the port using `ngrok` or similar tools if running in a cloud environment like Colab and wanting a publicly accessible URL."""
 
 # Install pyngrok
-!pip install pyngrok -q
+
 
 # Set your ngrok authentication token (replace 'YOUR_NGROK_AUTH_TOKEN' with your actual token)
 # Get your token from https://dashboard.ngrok.com/auth/your-authtoken
@@ -1400,7 +1399,7 @@ ngrok.set_auth_token("3FcV9N0njJxI8SDazvPXq42ZDMf_6bXYLAX3zXtXutQWndWqv")
 public_url = ngrok.connect(addr='8501')
 print(f"웹 페이지 접속 주소: {public_url}")
 
-!pip install -q streamlit pyngrok
+
 import subprocess
 import os
 import sys
