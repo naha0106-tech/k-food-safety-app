@@ -1382,7 +1382,7 @@ import signal
 ngrok.kill()
 
 # 2. 이미 실행 중일지 모르는 streamlit 프로세스 종료
-!pkill -f streamlit
+
 
 # 백그라운드에서 streamlit 실행
 # 실행 후 5초 정도 대기하여 서버가 준비될 시간을 줍니다.
@@ -1408,7 +1408,7 @@ from google.colab import userdata
 from pyngrok import ngrok
 
 # 0. 초기화 (이미 실행 중인 프로세스 종료)
-!pkill -f streamlit
+
 ngrok.kill()
 
 # 1. API 키 설정 (Colab Secrets에 'GEMINI_API_KEY'가 있어야 합니다)
